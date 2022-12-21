@@ -1,0 +1,43 @@
+.k-header.k-grid-header-sticky {
+    border-right: 0px solid #eee !important;
+    background-color: white;
+  }
+
+.primary-card-pdf{
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 2px solid var(--offer-color);
+    border-radius: 0px;
+}
+
+.table_text{
+  color: var(--title-color);
+  font-size: 10px;
+}
+
+.offer_text{
+  color: var(--title-color);
+  font-size: 10px;
+}
+
+.row_header_asessor{
+  align-items: center;
+  border-bottom: 1px solid var(--header-color);
+  color: var(--header-color);
+}
+
+.header_line_info{
+  white-space: nowrap;
+  padding-right: 7px;
+}
+
+.line_info{
+  white-space: nowrap;
+  padding-right: 2px;
+  padding-left: 2px;
+  border-right: 1px solid var(--offer-color);
+  display:inline-flex;
+  align-items: center;
+  flex-direction: row;
+}

@@ -1,0 +1,2189 @@
+{
+  "risk_in": {
+    "insurable_objects": [
+      {
+        "type": "vehicle",
+        "price_sugested": "70500000",
+        "vehicle": {
+          "plate": "FGH456",
+          "model": 2015,
+          "type": "PICKUP SENCILLA",
+          "brand": "CHEVROLET",
+          "line": "PICKUP SENCILLA",
+          "cylinder": "2500",
+          "number_passengers": 3,
+          "weight": 0,
+          "codification": {
+            "codification_base": "fasecolda",
+            "code": "01620125",
+            "nationality": "*",
+            "fuel": "*"
+          },
+          "vehicle_risk": {
+            "plate_type": "particular",
+            "use_type": "particular",
+            "protection_type": "alarma",
+            "use_time": 12,
+            "reference_price": 70500000,
+            "accesories_price": 1200000,
+            "in_agency": false
+          }
+        }
+      }
+    ],
+    "parties": [
+      {
+        "party_type": "person",
+        "party_rol": "Asegurado",
+        "person": {
+          "identification_type": "CC",
+          "identification_number": "789456",
+          "firstname": "Cuarta",
+          "lastname": "Prueba",
+          "gender": "M",
+          "birht_date": "1999-01-20",
+          "profession": "Comerciante",
+          "educational_level": "primary",
+          "marital_status": "single",
+          "contact_data": [
+            {
+              "contact_info": {
+                "email": "ndag1990@gmail.com",
+                "phone": "3202245686",
+                "ubication": {
+                  "address_line1": "Calle 1",
+                  "postal_code": "05145",
+                  "place": {
+                    "country_name": "Colombia",
+                    "country_code": "49",
+                    "state_name": "Antioquia (CO)",
+                    "state_code": "05",
+                    "city_name": "Caramanta",
+                    "city_code": "145",
+                    "code": "05145"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "ubication": {
+      "place": {
+        "id": 141,
+        "country_name": "Colombia",
+        "country_code": "49",
+        "state_name": "Antioquia (CO)",
+        "state_code": "05",
+        "city_code": "145",
+        "city_name": "Caramanta",
+        "code": "05145"
+      }
+    },
+    "business_line": "vehiculos",
+    "id_db": 141
+  },
+  "policy_list": [
+    {
+      "process_id": "30084942",
+      "source": "API_Zurich",
+      "duration_days": "365",
+      "discount_tec": 0,
+      "discount_com": 0,
+      "points_rating": 0,
+      "process_comments": [],
+      "products": [
+        {
+          "price": 2829581.43,
+          "name": "Zurich - Auto Familiar",
+          "logo": "https://app.agentemotor.com/components/com_aceshop/opencart/image/cache/data/logo%20zurich-90x90.png",
+          "coverages": [
+            {
+              "name": "RESEXT",
+              "accion_tag": "R",
+              "coverage_tag": "RESEXT",
+              "desc_tag": "4000 MM_COP",
+              "description": "4000 MM_COP",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "DEBPTD",
+              "accion_tag": "R",
+              "coverage_tag": "DEBPTD",
+              "desc_tag": "NO",
+              "description": "NO",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "DEBPPD",
+              "accion_tag": "R",
+              "coverage_tag": "DEBPPD",
+              "desc_tag": "Hasta 75% valor vehículo, deducible 10%, min 1 SMMLV",
+              "description": "Hasta 75% valor vehículo, deducible 10%, min 1 SMMLV",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "DEBPTH",
+              "accion_tag": "R",
+              "coverage_tag": "DEBPTH",
+              "desc_tag": "SI",
+              "description": "SI",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "DEBPPH",
+              "accion_tag": "R",
+              "coverage_tag": "DEBPPH",
+              "desc_tag": "Hasta 75% valor vehículo, deducible 10%, min 1 SMMLV",
+              "description": "Hasta 75% valor vehículo, deducible 10%, min 1 SMMLV",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "EVNNAT",
+              "accion_tag": "R",
+              "coverage_tag": "EVNNAT",
+              "desc_tag": "SI",
+              "description": "SI",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "AMPPAT",
+              "accion_tag": "R",
+              "coverage_tag": "AMPPAT",
+              "desc_tag": "SI",
+              "description": "SI",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "ASIJUD",
+              "accion_tag": "R",
+              "coverage_tag": "ASIJUD",
+              "desc_tag": "SI",
+              "description": "SI",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "ASISMO",
+              "accion_tag": "R",
+              "coverage_tag": "ASISMO",
+              "desc_tag": "Hasta $1.800.000, 30 días",
+              "description": "Hasta $1.800.000, 30 días",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "GASPAR",
+              "accion_tag": "R",
+              "coverage_tag": "GASPAR",
+              "desc_tag": "Hasta $840.000, 14 días",
+              "description": "Hasta $840.000, 14 días",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "OBLIFI",
+              "accion_tag": "R",
+              "coverage_tag": "OBLIFI",
+              "desc_tag": "NO",
+              "description": "NO",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "SERGRU",
+              "accion_tag": "R",
+              "coverage_tag": "SERGRU",
+              "desc_tag": "8 servicios por vigencia",
+              "description": "8 servicios por vigencia",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "CARDES",
+              "accion_tag": "R",
+              "coverage_tag": "CARDES",
+              "desc_tag": "8 servicios por vigencia",
+              "description": "8 servicios por vigencia",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "CONELG",
+              "accion_tag": "R",
+              "coverage_tag": "CONELG",
+              "desc_tag": "10 servicios por vigencia",
+              "description": "10 servicios por vigencia",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "AMPACC",
+              "accion_tag": "R",
+              "coverage_tag": "AMPACC",
+              "desc_tag": "$30000000",
+              "description": "$30000000",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "accion_tag": "R",
+              "coverage_tag": "PRODUCT_NAME_ID",
+              "desc_tag": "FULL",
+              "accion_valor": "=",
+              "description_tag": "FULL"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "process_id": "30084950",
+      "source": "API_Zurich",
+      "duration_days": "365",
+      "discount_tec": 0,
+      "discount_com": 0,
+      "points_rating": 0,
+      "process_comments": [],
+      "products": [
+        {
+          "price": 1075994.76,
+          "name": "Zurich - Auto Familiar",
+          "logo": "https://app.agentemotor.com/components/com_aceshop/opencart/image/cache/data/logo%20zurich-90x90.png",
+          "coverages": [
+            {
+              "name": "RESEXT",
+              "accion_tag": "R",
+              "coverage_tag": "RESEXT",
+              "desc_tag": "600 MM_COP",
+              "description": "600 MM_COP",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "DEBPTD",
+              "accion_tag": "R",
+              "coverage_tag": "DEBPTD",
+              "desc_tag": "SI",
+              "description": "SI",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "DEBPPD",
+              "accion_tag": "R",
+              "coverage_tag": "DEBPPD",
+              "desc_tag": "NO",
+              "description": "NO",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "DEBPTH",
+              "accion_tag": "R",
+              "coverage_tag": "DEBPTH",
+              "desc_tag": "SI",
+              "description": "SI",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "DEBPPH",
+              "accion_tag": "R",
+              "coverage_tag": "DEBPPH",
+              "desc_tag": "NO",
+              "description": "NO",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "EVNNAT",
+              "accion_tag": "R",
+              "coverage_tag": "EVNNAT",
+              "desc_tag": "SI",
+              "description": "SI",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "AMPPAT",
+              "accion_tag": "R",
+              "coverage_tag": "AMPPAT",
+              "desc_tag": "SI",
+              "description": "SI",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "ASIJUD",
+              "accion_tag": "R",
+              "coverage_tag": "ASIJUD",
+              "desc_tag": "SI",
+              "description": "SI",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "ASISMO",
+              "accion_tag": "R",
+              "coverage_tag": "ASISMO",
+              "desc_tag": "NO",
+              "description": "NO",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "GASPAR",
+              "accion_tag": "R",
+              "coverage_tag": "GASPAR",
+              "desc_tag": "Hasta $840.000, 14 días",
+              "description": "Hasta $840.000, 14 días",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "OBLIFI",
+              "accion_tag": "R",
+              "coverage_tag": "OBLIFI",
+              "desc_tag": "NO",
+              "description": "NO",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "SERGRU",
+              "accion_tag": "R",
+              "coverage_tag": "SERGRU",
+              "desc_tag": "2 servicios por vigencia",
+              "description": "2 servicios por vigencia",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "CARDES",
+              "accion_tag": "R",
+              "coverage_tag": "CARDES",
+              "desc_tag": "2 servicios por vigencia",
+              "description": "2 servicios por vigencia",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "CONELG",
+              "accion_tag": "R",
+              "coverage_tag": "CONELG",
+              "desc_tag": "2 servicios por vigencia",
+              "description": "2 servicios por vigencia",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "AMPACC",
+              "accion_tag": "R",
+              "coverage_tag": "AMPACC",
+              "desc_tag": "NO",
+              "description": "NO",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "accion_tag": "R",
+              "coverage_tag": "PRODUCT_NAME_ID",
+              "desc_tag": "BASIC",
+              "accion_valor": "=",
+              "description_tag": "BASIC"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "process_id": "30084977",
+      "source": "API_Zurich",
+      "duration_days": "365",
+      "discount_tec": 0,
+      "discount_com": 0,
+      "points_rating": 0,
+      "process_comments": [],
+      "products": [
+        {
+          "price": 2264010.13,
+          "name": "Zurich - Auto Familiar",
+          "logo": "https://app.agentemotor.com/components/com_aceshop/opencart/image/cache/data/logo%20zurich-90x90.png",
+          "coverages": [
+            {
+              "name": "RESEXT",
+              "accion_tag": "R",
+              "coverage_tag": "RESEXT",
+              "desc_tag": "2000 MM_COP",
+              "description": "2000 MM_COP",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "DEBPTD",
+              "accion_tag": "R",
+              "coverage_tag": "DEBPTD",
+              "desc_tag": "SI",
+              "description": "SI",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "DEBPPD",
+              "accion_tag": "R",
+              "coverage_tag": "DEBPPD",
+              "desc_tag": "Hasta 50% valor vehículo, deducible 10%, min 1 SMMLV",
+              "description": "Hasta 50% valor vehículo, deducible 10%, min 1 SMMLV",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "DEBPTH",
+              "accion_tag": "R",
+              "coverage_tag": "DEBPTH",
+              "desc_tag": "SI",
+              "description": "SI",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "DEBPPH",
+              "accion_tag": "R",
+              "coverage_tag": "DEBPPH",
+              "desc_tag": "Hasta 50% valor vehículo, deducible 10%, min 1 SMMLV",
+              "description": "Hasta 50% valor vehículo, deducible 10%, min 1 SMMLV",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "EVNNAT",
+              "accion_tag": "R",
+              "coverage_tag": "EVNNAT",
+              "desc_tag": "SI",
+              "description": "SI",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "AMPPAT",
+              "accion_tag": "R",
+              "coverage_tag": "AMPPAT",
+              "desc_tag": "SI",
+              "description": "SI",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "ASIJUD",
+              "accion_tag": "R",
+              "coverage_tag": "ASIJUD",
+              "desc_tag": "SI",
+              "description": "SI",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "ASISMO",
+              "accion_tag": "R",
+              "coverage_tag": "ASISMO",
+              "desc_tag": "Hasta $1.800.000, 30 días",
+              "description": "Hasta $1.800.000, 30 días",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "GASPAR",
+              "accion_tag": "R",
+              "coverage_tag": "GASPAR",
+              "desc_tag": "Hasta $840.000, 14 días",
+              "description": "Hasta $840.000, 14 días",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "OBLIFI",
+              "accion_tag": "R",
+              "coverage_tag": "OBLIFI",
+              "desc_tag": "NO",
+              "description": "NO",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "SERGRU",
+              "accion_tag": "R",
+              "coverage_tag": "SERGRU",
+              "desc_tag": "4 servicios por vigencia",
+              "description": "4 servicios por vigencia",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "CARDES",
+              "accion_tag": "R",
+              "coverage_tag": "CARDES",
+              "desc_tag": "4 servicios por vigencia",
+              "description": "4 servicios por vigencia",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "CONELG",
+              "accion_tag": "R",
+              "coverage_tag": "CONELG",
+              "desc_tag": "4 servicios por vigencia",
+              "description": "4 servicios por vigencia",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "AMPACC",
+              "accion_tag": "R",
+              "coverage_tag": "AMPACC",
+              "desc_tag": "NO",
+              "description": "NO",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "accion_tag": "R",
+              "coverage_tag": "PRODUCT_NAME_ID",
+              "desc_tag": "MEDIUM",
+              "accion_valor": "=",
+              "description_tag": "MEDIUM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "process_id": "30084977",
+      "source": "API_Zurich",
+      "duration_days": "365",
+      "discount_tec": 0,
+      "discount_com": 0,
+      "points_rating": 0,
+      "process_comments": [],
+      "products": [
+        {
+          "price": 3700000,
+          "name": "Sura Global",
+          "logo": "https://app.agentemotor.com/components/com_aceshop/opencart/image/cache/data/sura-logo.jpg",
+          "coverages": [
+            {
+              "name": "RESEXT",
+              "accion_tag": "R",
+              "coverage_tag": "RESEXT",
+              "desc_tag": "3000 MM_COP",
+              "description": "3000 MM_COP",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "DEBPTD",
+              "accion_tag": "R",
+              "coverage_tag": "DEBPTD",
+              "desc_tag": "NO",
+              "description": "NO",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "DEBPPD",
+              "accion_tag": "R",
+              "coverage_tag": "DEBPPD",
+              "desc_tag": "Hasta 50% valor vehículo, deducible 10%, min 1 SMMLV",
+              "description": "Hasta 50% valor vehículo, deducible 10%, min 1 SMMLV",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "DEBPTH",
+              "accion_tag": "R",
+              "coverage_tag": "DEBPTH",
+              "desc_tag": "SI",
+              "description": "SI",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "DEBPPH",
+              "accion_tag": "R",
+              "coverage_tag": "DEBPPH",
+              "desc_tag": "Hasta 50% valor vehículo, deducible 10%, min 1 SMMLV",
+              "description": "Hasta 50% valor vehículo, deducible 10%, min 1 SMMLV",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "EVNNAT",
+              "accion_tag": "R",
+              "coverage_tag": "EVNNAT",
+              "desc_tag": "SI",
+              "description": "SI",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "AMPPAT",
+              "accion_tag": "R",
+              "coverage_tag": "AMPPAT",
+              "desc_tag": "SI",
+              "description": "SI",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "ASIJUD",
+              "accion_tag": "R",
+              "coverage_tag": "ASIJUD",
+              "desc_tag": "SI",
+              "description": "SI",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "ASISMO",
+              "accion_tag": "R",
+              "coverage_tag": "ASISMO",
+              "desc_tag": "Hasta $1.800.000, 30 días",
+              "description": "Hasta $1.800.000, 30 días",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "GASPAR",
+              "accion_tag": "R",
+              "coverage_tag": "GASPAR",
+              "desc_tag": "Hasta $840.000, 14 días",
+              "description": "Hasta $840.000, 14 días",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "OBLIFI",
+              "accion_tag": "R",
+              "coverage_tag": "OBLIFI",
+              "desc_tag": "NO",
+              "description": "NO",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "SERGRU",
+              "accion_tag": "R",
+              "coverage_tag": "SERGRU",
+              "desc_tag": "4 servicios por vigencia",
+              "description": "4 servicios por vigencia",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "CARDES",
+              "accion_tag": "R",
+              "coverage_tag": "CARDES",
+              "desc_tag": "4 servicios por vigencia",
+              "description": "4 servicios por vigencia",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "CONELG",
+              "accion_tag": "R",
+              "coverage_tag": "CONELG",
+              "desc_tag": "4 servicios por vigencia",
+              "description": "4 servicios por vigencia",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "AMPACC",
+              "accion_tag": "R",
+              "coverage_tag": "AMPACC",
+              "desc_tag": "NO",
+              "description": "NO",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "accion_tag": "R",
+              "coverage_tag": "PRODUCT_NAME_ID",
+              "desc_tag": "MEDIUM",
+              "accion_valor": "=",
+              "description_tag": "MEDIUM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "process_id": "30084977",
+      "source": "API_Zurich",
+      "duration_days": "365",
+      "discount_tec": 0,
+      "discount_com": 0,
+      "points_rating": 0,
+      "process_comments": [],
+      "products": [
+        {
+          "price": 2600000,
+          "name": "HDI Formula Sicura",
+          "logo": "https://app.agentemotor.com/components/com_aceshop/opencart/image/cache/data/logo-hdi-90x90.png",
+          "coverages": [
+            {
+              "name": "RESEXT",
+              "accion_tag": "R",
+              "coverage_tag": "RESEXT",
+              "desc_tag": "3000 MM_COP",
+              "description": "3000 MM_COP",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "DEBPTD",
+              "accion_tag": "R",
+              "coverage_tag": "DEBPTD",
+              "desc_tag": "SI",
+              "description": "SI",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "DEBPPD",
+              "accion_tag": "R",
+              "coverage_tag": "DEBPPD",
+              "desc_tag": "Hasta 50% valor vehículo, deducible 10%, min 1 SMMLV",
+              "description": "Hasta 50% valor vehículo, deducible 10%, min 1 SMMLV",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "DEBPTH",
+              "accion_tag": "R",
+              "coverage_tag": "DEBPTH",
+              "desc_tag": "SI",
+              "description": "SI",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "DEBPPH",
+              "accion_tag": "R",
+              "coverage_tag": "DEBPPH",
+              "desc_tag": "Hasta 50% valor vehículo, deducible 10%, min 1 SMMLV",
+              "description": "Hasta 50% valor vehículo, deducible 10%, min 1 SMMLV",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "EVNNAT",
+              "accion_tag": "R",
+              "coverage_tag": "EVNNAT",
+              "desc_tag": "SI",
+              "description": "SI",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "AMPPAT",
+              "accion_tag": "R",
+              "coverage_tag": "AMPPAT",
+              "desc_tag": "SI",
+              "description": "SI",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "ASIJUD",
+              "accion_tag": "R",
+              "coverage_tag": "ASIJUD",
+              "desc_tag": "SI",
+              "description": "SI",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "ASISMO",
+              "accion_tag": "R",
+              "coverage_tag": "ASISMO",
+              "desc_tag": "Hasta $1.800.000, 30 días",
+              "description": "Hasta $1.800.000, 30 días",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "GASPAR",
+              "accion_tag": "R",
+              "coverage_tag": "GASPAR",
+              "desc_tag": "Hasta $840.000, 14 días",
+              "description": "Hasta $840.000, 14 días",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "OBLIFI",
+              "accion_tag": "R",
+              "coverage_tag": "OBLIFI",
+              "desc_tag": "NO",
+              "description": "NO",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "SERGRU",
+              "accion_tag": "R",
+              "coverage_tag": "SERGRU",
+              "desc_tag": "4 servicios por vigencia",
+              "description": "4 servicios por vigencia",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "CARDES",
+              "accion_tag": "R",
+              "coverage_tag": "CARDES",
+              "desc_tag": "4 servicios por vigencia",
+              "description": "4 servicios por vigencia",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "CONELG",
+              "accion_tag": "R",
+              "coverage_tag": "CONELG",
+              "desc_tag": "4 servicios por vigencia",
+              "description": "4 servicios por vigencia",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "AMPACC",
+              "accion_tag": "R",
+              "coverage_tag": "AMPACC",
+              "desc_tag": "NO",
+              "description": "NO",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "accion_tag": "R",
+              "coverage_tag": "PRODUCT_NAME_ID",
+              "desc_tag": "MEDIUM",
+              "accion_valor": "=",
+              "description_tag": "MEDIUM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "process_id": "30084977",
+      "source": "API_Zurich",
+      "duration_days": "365",
+      "discount_tec": 0,
+      "discount_com": 0,
+      "points_rating": 0,
+      "process_comments": [],
+      "products": [
+        {
+          "price": 2600000,
+          "name": "Equidad - Auto Plus 100%",
+          "logo": "https://app.agentemotor.com/components/com_aceshop/opencart/image/cache/data/descarga-90x90.jpg",
+          "coverages": [
+            {
+              "name": "RESEXT",
+              "accion_tag": "R",
+              "coverage_tag": "RESEXT",
+              "desc_tag": "3000 MM_COP",
+              "description": "3000 MM_COP",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "DEBPTD",
+              "accion_tag": "R",
+              "coverage_tag": "DEBPTD",
+              "desc_tag": "SI",
+              "description": "SI",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "DEBPPD",
+              "accion_tag": "R",
+              "coverage_tag": "DEBPPD",
+              "desc_tag": "Hasta 50% valor vehículo, deducible 10%, min 1 SMMLV",
+              "description": "Hasta 50% valor vehículo, deducible 10%, min 1 SMMLV",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "DEBPTH",
+              "accion_tag": "R",
+              "coverage_tag": "DEBPTH",
+              "desc_tag": "SI",
+              "description": "SI",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "DEBPPH",
+              "accion_tag": "R",
+              "coverage_tag": "DEBPPH",
+              "desc_tag": "Hasta 50% valor vehículo, deducible 10%, min 1 SMMLV",
+              "description": "Hasta 50% valor vehículo, deducible 10%, min 1 SMMLV",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "EVNNAT",
+              "accion_tag": "R",
+              "coverage_tag": "EVNNAT",
+              "desc_tag": "SI",
+              "description": "SI",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "AMPPAT",
+              "accion_tag": "R",
+              "coverage_tag": "AMPPAT",
+              "desc_tag": "SI",
+              "description": "SI",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "ASIJUD",
+              "accion_tag": "R",
+              "coverage_tag": "ASIJUD",
+              "desc_tag": "SI",
+              "description": "SI",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "ASISMO",
+              "accion_tag": "R",
+              "coverage_tag": "ASISMO",
+              "desc_tag": "Hasta $1.800.000, 30 días",
+              "description": "Hasta $1.800.000, 30 días",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "GASPAR",
+              "accion_tag": "R",
+              "coverage_tag": "GASPAR",
+              "desc_tag": "Hasta $840.000, 14 días",
+              "description": "Hasta $840.000, 14 días",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "OBLIFI",
+              "accion_tag": "R",
+              "coverage_tag": "OBLIFI",
+              "desc_tag": "NO",
+              "description": "NO",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "SERGRU",
+              "accion_tag": "R",
+              "coverage_tag": "SERGRU",
+              "desc_tag": "4 servicios por vigencia",
+              "description": "4 servicios por vigencia",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "CARDES",
+              "accion_tag": "R",
+              "coverage_tag": "CARDES",
+              "desc_tag": "4 servicios por vigencia",
+              "description": "4 servicios por vigencia",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "CONELG",
+              "accion_tag": "R",
+              "coverage_tag": "CONELG",
+              "desc_tag": "4 servicios por vigencia",
+              "description": "4 servicios por vigencia",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "AMPACC",
+              "accion_tag": "R",
+              "coverage_tag": "AMPACC",
+              "desc_tag": "NO",
+              "description": "NO",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "accion_tag": "R",
+              "coverage_tag": "PRODUCT_NAME_ID",
+              "desc_tag": "MEDIUM",
+              "accion_valor": "=",
+              "description_tag": "MEDIUM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "process_id": "30084942",
+      "source": "API_Zurich",
+      "duration_days": "365",
+      "discount_tec": 0,
+      "discount_com": 0,
+      "points_rating": 0,
+      "process_comments": [],
+      "products": [
+        {
+          "price": 2829581.43,
+          "name": "Zurich - Auto Familiar",
+          "logo": "https://app.agentemotor.com/components/com_aceshop/opencart/image/cache/data/logo%20zurich-90x90.png",
+          "coverages": [
+            {
+              "name": "RESEXT",
+              "accion_tag": "R",
+              "coverage_tag": "RESEXT",
+              "desc_tag": "4000 MM_COP",
+              "description": "4000 MM_COP",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "DEBPTD",
+              "accion_tag": "R",
+              "coverage_tag": "DEBPTD",
+              "desc_tag": "NO",
+              "description": "NO",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "DEBPPD",
+              "accion_tag": "R",
+              "coverage_tag": "DEBPPD",
+              "desc_tag": "Hasta 75% valor vehículo, deducible 10%, min 1 SMMLV",
+              "description": "Hasta 75% valor vehículo, deducible 10%, min 1 SMMLV",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "DEBPTH",
+              "accion_tag": "R",
+              "coverage_tag": "DEBPTH",
+              "desc_tag": "SI",
+              "description": "SI",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "DEBPPH",
+              "accion_tag": "R",
+              "coverage_tag": "DEBPPH",
+              "desc_tag": "Hasta 75% valor vehículo, deducible 10%, min 1 SMMLV",
+              "description": "Hasta 75% valor vehículo, deducible 10%, min 1 SMMLV",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "EVNNAT",
+              "accion_tag": "R",
+              "coverage_tag": "EVNNAT",
+              "desc_tag": "SI",
+              "description": "SI",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "AMPPAT",
+              "accion_tag": "R",
+              "coverage_tag": "AMPPAT",
+              "desc_tag": "SI",
+              "description": "SI",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "ASIJUD",
+              "accion_tag": "R",
+              "coverage_tag": "ASIJUD",
+              "desc_tag": "SI",
+              "description": "SI",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "ASISMO",
+              "accion_tag": "R",
+              "coverage_tag": "ASISMO",
+              "desc_tag": "Hasta $1.800.000, 30 días",
+              "description": "Hasta $1.800.000, 30 días",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "GASPAR",
+              "accion_tag": "R",
+              "coverage_tag": "GASPAR",
+              "desc_tag": "Hasta $840.000, 14 días",
+              "description": "Hasta $840.000, 14 días",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "OBLIFI",
+              "accion_tag": "R",
+              "coverage_tag": "OBLIFI",
+              "desc_tag": "NO",
+              "description": "NO",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "SERGRU",
+              "accion_tag": "R",
+              "coverage_tag": "SERGRU",
+              "desc_tag": "8 servicios por vigencia",
+              "description": "8 servicios por vigencia",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "CARDES",
+              "accion_tag": "R",
+              "coverage_tag": "CARDES",
+              "desc_tag": "8 servicios por vigencia",
+              "description": "8 servicios por vigencia",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "CONELG",
+              "accion_tag": "R",
+              "coverage_tag": "CONELG",
+              "desc_tag": "10 servicios por vigencia",
+              "description": "10 servicios por vigencia",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "AMPACC",
+              "accion_tag": "R",
+              "coverage_tag": "AMPACC",
+              "desc_tag": "$30000000",
+              "description": "$30000000",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "accion_tag": "R",
+              "coverage_tag": "PRODUCT_NAME_ID",
+              "desc_tag": "FULL",
+              "accion_valor": "=",
+              "description_tag": "FULL"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "process_id": "30084950",
+      "source": "API_Zurich",
+      "duration_days": "365",
+      "discount_tec": 0,
+      "discount_com": 0,
+      "points_rating": 0,
+      "process_comments": [],
+      "products": [
+        {
+          "price": 1075994.76,
+          "name": "Zurich - Auto Familiar",
+          "logo": "https://app.agentemotor.com/components/com_aceshop/opencart/image/cache/data/logo%20zurich-90x90.png",
+          "coverages": [
+            {
+              "name": "RESEXT",
+              "accion_tag": "R",
+              "coverage_tag": "RESEXT",
+              "desc_tag": "600 MM_COP",
+              "description": "600 MM_COP",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "DEBPTD",
+              "accion_tag": "R",
+              "coverage_tag": "DEBPTD",
+              "desc_tag": "SI",
+              "description": "SI",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "DEBPPD",
+              "accion_tag": "R",
+              "coverage_tag": "DEBPPD",
+              "desc_tag": "NO",
+              "description": "NO",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "DEBPTH",
+              "accion_tag": "R",
+              "coverage_tag": "DEBPTH",
+              "desc_tag": "SI",
+              "description": "SI",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "DEBPPH",
+              "accion_tag": "R",
+              "coverage_tag": "DEBPPH",
+              "desc_tag": "NO",
+              "description": "NO",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "EVNNAT",
+              "accion_tag": "R",
+              "coverage_tag": "EVNNAT",
+              "desc_tag": "SI",
+              "description": "SI",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "AMPPAT",
+              "accion_tag": "R",
+              "coverage_tag": "AMPPAT",
+              "desc_tag": "SI",
+              "description": "SI",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "ASIJUD",
+              "accion_tag": "R",
+              "coverage_tag": "ASIJUD",
+              "desc_tag": "SI",
+              "description": "SI",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "ASISMO",
+              "accion_tag": "R",
+              "coverage_tag": "ASISMO",
+              "desc_tag": "NO",
+              "description": "NO",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "GASPAR",
+              "accion_tag": "R",
+              "coverage_tag": "GASPAR",
+              "desc_tag": "Hasta $840.000, 14 días",
+              "description": "Hasta $840.000, 14 días",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "OBLIFI",
+              "accion_tag": "R",
+              "coverage_tag": "OBLIFI",
+              "desc_tag": "NO",
+              "description": "NO",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "SERGRU",
+              "accion_tag": "R",
+              "coverage_tag": "SERGRU",
+              "desc_tag": "2 servicios por vigencia",
+              "description": "2 servicios por vigencia",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "CARDES",
+              "accion_tag": "R",
+              "coverage_tag": "CARDES",
+              "desc_tag": "2 servicios por vigencia",
+              "description": "2 servicios por vigencia",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "CONELG",
+              "accion_tag": "R",
+              "coverage_tag": "CONELG",
+              "desc_tag": "2 servicios por vigencia",
+              "description": "2 servicios por vigencia",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "AMPACC",
+              "accion_tag": "R",
+              "coverage_tag": "AMPACC",
+              "desc_tag": "NO",
+              "description": "NO",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "accion_tag": "R",
+              "coverage_tag": "PRODUCT_NAME_ID",
+              "desc_tag": "BASIC",
+              "accion_valor": "=",
+              "description_tag": "BASIC"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "process_id": "30084977",
+      "source": "API_Zurich",
+      "duration_days": "365",
+      "discount_tec": 0,
+      "discount_com": 0,
+      "points_rating": 0,
+      "process_comments": [],
+      "products": [
+        {
+          "price": 2264010.13,
+          "name": "Zurich - Auto Familiar",
+          "logo": "https://app.agentemotor.com/components/com_aceshop/opencart/image/cache/data/logo%20zurich-90x90.png",
+          "coverages": [
+            {
+              "name": "RESEXT",
+              "accion_tag": "R",
+              "coverage_tag": "RESEXT",
+              "desc_tag": "2000 MM_COP",
+              "description": "2000 MM_COP",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "DEBPTD",
+              "accion_tag": "R",
+              "coverage_tag": "DEBPTD",
+              "desc_tag": "SI",
+              "description": "SI",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "DEBPPD",
+              "accion_tag": "R",
+              "coverage_tag": "DEBPPD",
+              "desc_tag": "Hasta 50% valor vehículo, deducible 10%, min 1 SMMLV",
+              "description": "Hasta 50% valor vehículo, deducible 10%, min 1 SMMLV",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "DEBPTH",
+              "accion_tag": "R",
+              "coverage_tag": "DEBPTH",
+              "desc_tag": "SI",
+              "description": "SI",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "DEBPPH",
+              "accion_tag": "R",
+              "coverage_tag": "DEBPPH",
+              "desc_tag": "Hasta 50% valor vehículo, deducible 10%, min 1 SMMLV",
+              "description": "Hasta 50% valor vehículo, deducible 10%, min 1 SMMLV",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "EVNNAT",
+              "accion_tag": "R",
+              "coverage_tag": "EVNNAT",
+              "desc_tag": "SI",
+              "description": "SI",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "AMPPAT",
+              "accion_tag": "R",
+              "coverage_tag": "AMPPAT",
+              "desc_tag": "SI",
+              "description": "SI",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "ASIJUD",
+              "accion_tag": "R",
+              "coverage_tag": "ASIJUD",
+              "desc_tag": "SI",
+              "description": "SI",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "ASISMO",
+              "accion_tag": "R",
+              "coverage_tag": "ASISMO",
+              "desc_tag": "Hasta $1.800.000, 30 días",
+              "description": "Hasta $1.800.000, 30 días",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "GASPAR",
+              "accion_tag": "R",
+              "coverage_tag": "GASPAR",
+              "desc_tag": "Hasta $840.000, 14 días",
+              "description": "Hasta $840.000, 14 días",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "OBLIFI",
+              "accion_tag": "R",
+              "coverage_tag": "OBLIFI",
+              "desc_tag": "NO",
+              "description": "NO",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "SERGRU",
+              "accion_tag": "R",
+              "coverage_tag": "SERGRU",
+              "desc_tag": "4 servicios por vigencia",
+              "description": "4 servicios por vigencia",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "CARDES",
+              "accion_tag": "R",
+              "coverage_tag": "CARDES",
+              "desc_tag": "4 servicios por vigencia",
+              "description": "4 servicios por vigencia",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "CONELG",
+              "accion_tag": "R",
+              "coverage_tag": "CONELG",
+              "desc_tag": "4 servicios por vigencia",
+              "description": "4 servicios por vigencia",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "AMPACC",
+              "accion_tag": "R",
+              "coverage_tag": "AMPACC",
+              "desc_tag": "NO",
+              "description": "NO",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "accion_tag": "R",
+              "coverage_tag": "PRODUCT_NAME_ID",
+              "desc_tag": "MEDIUM",
+              "accion_valor": "=",
+              "description_tag": "MEDIUM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "process_id": "30084977",
+      "source": "API_Zurich",
+      "duration_days": "365",
+      "discount_tec": 0,
+      "discount_com": 0,
+      "points_rating": 0,
+      "process_comments": [],
+      "products": [
+        {
+          "price": 3700000,
+          "name": "Sura Global",
+          "logo": "https://app.agentemotor.com/components/com_aceshop/opencart/image/cache/data/sura-logo.jpg",
+          "coverages": [
+            {
+              "name": "RESEXT",
+              "accion_tag": "R",
+              "coverage_tag": "RESEXT",
+              "desc_tag": "3000 MM_COP",
+              "description": "3000 MM_COP",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "DEBPTD",
+              "accion_tag": "R",
+              "coverage_tag": "DEBPTD",
+              "desc_tag": "NO",
+              "description": "NO",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "DEBPPD",
+              "accion_tag": "R",
+              "coverage_tag": "DEBPPD",
+              "desc_tag": "Hasta 50% valor vehículo, deducible 10%, min 1 SMMLV",
+              "description": "Hasta 50% valor vehículo, deducible 10%, min 1 SMMLV",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "DEBPTH",
+              "accion_tag": "R",
+              "coverage_tag": "DEBPTH",
+              "desc_tag": "SI",
+              "description": "SI",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "DEBPPH",
+              "accion_tag": "R",
+              "coverage_tag": "DEBPPH",
+              "desc_tag": "Hasta 50% valor vehículo, deducible 10%, min 1 SMMLV",
+              "description": "Hasta 50% valor vehículo, deducible 10%, min 1 SMMLV",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "EVNNAT",
+              "accion_tag": "R",
+              "coverage_tag": "EVNNAT",
+              "desc_tag": "SI",
+              "description": "SI",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "AMPPAT",
+              "accion_tag": "R",
+              "coverage_tag": "AMPPAT",
+              "desc_tag": "SI",
+              "description": "SI",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "ASIJUD",
+              "accion_tag": "R",
+              "coverage_tag": "ASIJUD",
+              "desc_tag": "SI",
+              "description": "SI",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "ASISMO",
+              "accion_tag": "R",
+              "coverage_tag": "ASISMO",
+              "desc_tag": "Hasta $1.800.000, 30 días",
+              "description": "Hasta $1.800.000, 30 días",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "GASPAR",
+              "accion_tag": "R",
+              "coverage_tag": "GASPAR",
+              "desc_tag": "Hasta $840.000, 14 días",
+              "description": "Hasta $840.000, 14 días",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "OBLIFI",
+              "accion_tag": "R",
+              "coverage_tag": "OBLIFI",
+              "desc_tag": "NO",
+              "description": "NO",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "SERGRU",
+              "accion_tag": "R",
+              "coverage_tag": "SERGRU",
+              "desc_tag": "4 servicios por vigencia",
+              "description": "4 servicios por vigencia",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "CARDES",
+              "accion_tag": "R",
+              "coverage_tag": "CARDES",
+              "desc_tag": "4 servicios por vigencia",
+              "description": "4 servicios por vigencia",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "CONELG",
+              "accion_tag": "R",
+              "coverage_tag": "CONELG",
+              "desc_tag": "4 servicios por vigencia",
+              "description": "4 servicios por vigencia",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "AMPACC",
+              "accion_tag": "R",
+              "coverage_tag": "AMPACC",
+              "desc_tag": "NO",
+              "description": "NO",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "accion_tag": "R",
+              "coverage_tag": "PRODUCT_NAME_ID",
+              "desc_tag": "MEDIUM",
+              "accion_valor": "=",
+              "description_tag": "MEDIUM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "process_id": "30084977",
+      "source": "API_Zurich",
+      "duration_days": "365",
+      "discount_tec": 0,
+      "discount_com": 0,
+      "points_rating": 0,
+      "process_comments": [],
+      "products": [
+        {
+          "price": 2600000,
+          "name": "HDI Formula Sicura",
+          "logo": "https://app.agentemotor.com/components/com_aceshop/opencart/image/cache/data/logo-hdi-90x90.png",
+          "coverages": [
+            {
+              "name": "RESEXT",
+              "accion_tag": "R",
+              "coverage_tag": "RESEXT",
+              "desc_tag": "3000 MM_COP",
+              "description": "3000 MM_COP",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "DEBPTD",
+              "accion_tag": "R",
+              "coverage_tag": "DEBPTD",
+              "desc_tag": "SI",
+              "description": "SI",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "DEBPPD",
+              "accion_tag": "R",
+              "coverage_tag": "DEBPPD",
+              "desc_tag": "Hasta 50% valor vehículo, deducible 10%, min 1 SMMLV",
+              "description": "Hasta 50% valor vehículo, deducible 10%, min 1 SMMLV",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "DEBPTH",
+              "accion_tag": "R",
+              "coverage_tag": "DEBPTH",
+              "desc_tag": "SI",
+              "description": "SI",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "DEBPPH",
+              "accion_tag": "R",
+              "coverage_tag": "DEBPPH",
+              "desc_tag": "Hasta 50% valor vehículo, deducible 10%, min 1 SMMLV",
+              "description": "Hasta 50% valor vehículo, deducible 10%, min 1 SMMLV",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "EVNNAT",
+              "accion_tag": "R",
+              "coverage_tag": "EVNNAT",
+              "desc_tag": "SI",
+              "description": "SI",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "AMPPAT",
+              "accion_tag": "R",
+              "coverage_tag": "AMPPAT",
+              "desc_tag": "SI",
+              "description": "SI",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "ASIJUD",
+              "accion_tag": "R",
+              "coverage_tag": "ASIJUD",
+              "desc_tag": "SI",
+              "description": "SI",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "ASISMO",
+              "accion_tag": "R",
+              "coverage_tag": "ASISMO",
+              "desc_tag": "Hasta $1.800.000, 30 días",
+              "description": "Hasta $1.800.000, 30 días",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "GASPAR",
+              "accion_tag": "R",
+              "coverage_tag": "GASPAR",
+              "desc_tag": "Hasta $840.000, 14 días",
+              "description": "Hasta $840.000, 14 días",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "OBLIFI",
+              "accion_tag": "R",
+              "coverage_tag": "OBLIFI",
+              "desc_tag": "NO",
+              "description": "NO",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "SERGRU",
+              "accion_tag": "R",
+              "coverage_tag": "SERGRU",
+              "desc_tag": "4 servicios por vigencia",
+              "description": "4 servicios por vigencia",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "CARDES",
+              "accion_tag": "R",
+              "coverage_tag": "CARDES",
+              "desc_tag": "4 servicios por vigencia",
+              "description": "4 servicios por vigencia",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "CONELG",
+              "accion_tag": "R",
+              "coverage_tag": "CONELG",
+              "desc_tag": "4 servicios por vigencia",
+              "description": "4 servicios por vigencia",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "AMPACC",
+              "accion_tag": "R",
+              "coverage_tag": "AMPACC",
+              "desc_tag": "NO",
+              "description": "NO",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "accion_tag": "R",
+              "coverage_tag": "PRODUCT_NAME_ID",
+              "desc_tag": "MEDIUM",
+              "accion_valor": "=",
+              "description_tag": "MEDIUM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "process_id": "30084977",
+      "source": "API_Zurich",
+      "duration_days": "365",
+      "discount_tec": 0,
+      "discount_com": 0,
+      "points_rating": 0,
+      "process_comments": [],
+      "products": [
+        {
+          "price": 2600000,
+          "name": "Equidad - Auto Plus 100%",
+          "logo": "https://app.agentemotor.com/components/com_aceshop/opencart/image/cache/data/descarga-90x90.jpg",
+          "coverages": [
+            {
+              "name": "RESEXT",
+              "accion_tag": "R",
+              "coverage_tag": "RESEXT",
+              "desc_tag": "3000 MM_COP",
+              "description": "3000 MM_COP",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "DEBPTD",
+              "accion_tag": "R",
+              "coverage_tag": "DEBPTD",
+              "desc_tag": "SI",
+              "description": "SI",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "DEBPPD",
+              "accion_tag": "R",
+              "coverage_tag": "DEBPPD",
+              "desc_tag": "Hasta 50% valor vehículo, deducible 10%, min 1 SMMLV",
+              "description": "Hasta 50% valor vehículo, deducible 10%, min 1 SMMLV",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "DEBPTH",
+              "accion_tag": "R",
+              "coverage_tag": "DEBPTH",
+              "desc_tag": "SI",
+              "description": "SI",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "DEBPPH",
+              "accion_tag": "R",
+              "coverage_tag": "DEBPPH",
+              "desc_tag": "Hasta 50% valor vehículo, deducible 10%, min 1 SMMLV",
+              "description": "Hasta 50% valor vehículo, deducible 10%, min 1 SMMLV",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "EVNNAT",
+              "accion_tag": "R",
+              "coverage_tag": "EVNNAT",
+              "desc_tag": "SI",
+              "description": "SI",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "AMPPAT",
+              "accion_tag": "R",
+              "coverage_tag": "AMPPAT",
+              "desc_tag": "SI",
+              "description": "SI",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "ASIJUD",
+              "accion_tag": "R",
+              "coverage_tag": "ASIJUD",
+              "desc_tag": "SI",
+              "description": "SI",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "ASISMO",
+              "accion_tag": "R",
+              "coverage_tag": "ASISMO",
+              "desc_tag": "Hasta $1.800.000, 30 días",
+              "description": "Hasta $1.800.000, 30 días",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "GASPAR",
+              "accion_tag": "R",
+              "coverage_tag": "GASPAR",
+              "desc_tag": "Hasta $840.000, 14 días",
+              "description": "Hasta $840.000, 14 días",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "OBLIFI",
+              "accion_tag": "R",
+              "coverage_tag": "OBLIFI",
+              "desc_tag": "NO",
+              "description": "NO",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "SERGRU",
+              "accion_tag": "R",
+              "coverage_tag": "SERGRU",
+              "desc_tag": "4 servicios por vigencia",
+              "description": "4 servicios por vigencia",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "CARDES",
+              "accion_tag": "R",
+              "coverage_tag": "CARDES",
+              "desc_tag": "4 servicios por vigencia",
+              "description": "4 servicios por vigencia",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "CONELG",
+              "accion_tag": "R",
+              "coverage_tag": "CONELG",
+              "desc_tag": "4 servicios por vigencia",
+              "description": "4 servicios por vigencia",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "name": "AMPACC",
+              "accion_tag": "R",
+              "coverage_tag": "AMPACC",
+              "desc_tag": "NO",
+              "description": "NO",
+              "group": "asd",
+              "group_tag": "asd",
+              "accion_valor": "+"
+            },
+            {
+              "accion_tag": "R",
+              "coverage_tag": "PRODUCT_NAME_ID",
+              "desc_tag": "MEDIUM",
+              "accion_valor": "=",
+              "description_tag": "MEDIUM"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
