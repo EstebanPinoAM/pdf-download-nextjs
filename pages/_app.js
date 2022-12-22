@@ -5,6 +5,5 @@ import "../Components/Pdf/styles.css"
 import 'bootstrap/dist/css/bootstrap.css'
 
 export default function MyApp({ Component, pageProps }) {
-  const data = "askjdkas"
-  return <Component {...pageProps} data={data} />
+  return <Component {...pageProps} />
 }

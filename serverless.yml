@@ -1,4 +1,7 @@
 PdfDowload:
   component: "@sls-next/serverless-component@latest"
   inputs:
-    roleArn: "arn:aws:iam::578765991000:role/lambda-full-access-nextjs"
+    memory: 2048
+    cloudfront:
+      defaults:
+        allowedHttpMethods: ['POST', 'GET']

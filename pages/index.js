@@ -1,15 +1,16 @@
 //import './assets/odoo.css';
-import React from "react";
+import React, { useEffect } from "react";
 import { getOportunity, getOportunityClient } from "../Utils/getOportunity";
 import { GetRiskName } from "../Utils/getRiskName"
 import { PdfPoliciesComparative } from "../Components/Pdf/PdfComparative";
 import StaticStyles from "../Components/StaticStyles";
+import testJson from "./test.json"
 
 export const DataContext = React.createContext({});
 
 function Index(props) {
-  const [oportunity] = React.useState(props.oportunity);
-  const [tenant] = React.useState(props.tenant);
+  const [oportunity] = React.useState(props.oportunity || testJson);
+  const [tenant] = React.useState(props.tenant || "cencosud.co.agm-dev.com");
 
   return (
     <div>
