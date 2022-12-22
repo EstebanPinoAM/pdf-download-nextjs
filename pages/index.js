@@ -35,10 +35,10 @@ Index.getInitialProps = async function (ctx) {
     name,
     token
   );
-  oportunity.policy_list = oportunity.policy_list.map((policy,idx) =>{
-    if(idx <= 5) policy.view_status = "Recomendada"
-    return policy
-  })
+  // oportunity.policy_list = oportunity.policy_list.map((policy,idx) =>{
+  //   if(idx <= 5) policy.view_status = "Recomendada"
+  //   return policy
+  // })
   return { oportunity: oportunity, tenant: tenant };
 };
 

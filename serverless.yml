@@ -1,2 +1,4 @@
-myNextApplication:
-  component: "serverless-next.js"
+PdfDowload:
+  component: "@sls-next/serverless-component@latest"
+  inputs:
+    roleArn: "arn:aws:iam::578765991000:role/lambda-full-access-nextjs"

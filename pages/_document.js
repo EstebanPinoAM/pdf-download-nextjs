@@ -7,6 +7,7 @@ import React from "react";
 class CustomDocument extends Document {
   static async getInitialProps(ctx) {
     const { req, res, query, renderPage } = ctx;
+    // console.log(ctx)
     // Setup
     // const name = "730"
     // const token = "42ede136-ee2e-410b-adec-1aa6098ab8b8"n
@@ -38,16 +39,17 @@ class CustomDocument extends Document {
           `,
     }}
   />
-
-    const name = extractName(html)
-
-    const buffer = await handlePrintToBase64Doc(html)
-    .catch(function (err) {
-      console.log("Error generating pdf", err);
-    });
-    res.setHeader("Content-disposition", `attachment; filename="${name}.pdf`);
-    res.setHeader("Content-Type", "application/pdf");
-    res.end(buffer);
+    if(query.pdf){
+      const name = extractName(html)
+      const buffer = await handlePrintToBase64Doc(html)
+      .catch(function (err) {
+        console.log("Error generating pdf", err);
+      });
+      res.setHeader("Content-disposition", `attachment; filename="${name}.pdf`);
+      res.setHeader("Content-Type", "application/pdf");
+      res.end(buffer);
+    }
+    
     // Run the parent `getInitialProps`, it now includes the custom `renderPage`
     const initialProps = await Document.getInitialProps(ctx);
 
